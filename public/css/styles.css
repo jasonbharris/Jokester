@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #DEC0F1;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    margin-top: 10%;
+    translate: tranform(-50%, -50%);
+}
+
+main p {
+    width: 700px;
+    margin-left: 10px;
+    padding: 30px;
+    font-size: 1.8rem;
+}
+
+main a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #CD533B;
+    color: #C2EABD;
+    border-radius: 10px;
+    margin-left: 40px;
+}
